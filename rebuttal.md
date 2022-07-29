@@ -1,6 +1,7 @@
 # Global review
 
 
+
 # Reviewer 1
 We thanks our reviewers for their time, and their positive and detailed feedback. We hope our answers below can address some of the questions raised:
 
@@ -9,7 +10,7 @@ We thanks our reviewers for their time, and their positive and detailed feedback
 R: 
 
 
->Section 3.2 - You provide references that use coordinated ZO estimator, though no references of using therandom ZO estimator. Moreover, in figure 1 you refer to the random ZO estimator as "Our new". This ismisleading, as it gives the impression that it is used for the first time in this paper. This is definitely not true. Forexample, the seminal [Online convex optimization in the bandit setting: gradient descent without a gradient,Flaxman Kalai McMahan] and many follow ups. Your paper should at least provide such references, and adetailed discussion of what is diff erent in your setting (finite sum etc.).
+>Section 3.2 - You provide references that use coordinated ZO estimator, though no references of using therandom ZO estimator. Moreover, in figure 1 you refer to the random ZO estimator as "Our new". This ismisleading, as it gives the impression that it is used for the first time in this paper. This is definitely not true. Forexample, the seminal [Online convex optimization in the bandit setting: gradient descent without a gradient,Flaxman Kalai McMahan] and many follow ups. Your paper should at least provide such references, and a detailed discussion of what is diff erent in your setting (finite sum etc.).
 
 R：
 
@@ -25,12 +26,14 @@ R:
 
 # Reviewer 2
 
->While reduction based approaches usually enjoy a simplifi ed analysis, in practice they are more diffi cult toimplement due to their need to maintain delicate objective reduction properties. Usually these properties dependson unknown problem parameters, e.g. smoothness, which limits the applicability of this type of methods. I wouldnot blame the authors for this drawback since it is a common problem of the reduction based approaches, but Icannot strongly recommend this work due to this reason.
+>While reduction based approaches usually enjoy a simplified analysis, in practice they are more difficult to implement due to their need to maintain delicate objective reduction properties. Usually these properties dependson unknown problem parameters, e.g. smoothness, which limits the applicability of this type of methods. I would not blame the authors for this drawback since it is a common problem of the reduction based approaches, but I cannot strongly recommend this work due to this reason.
 
 R:
 
 
-For the non-convex setting, the obtain the complexity does not necessary outperforms the previous SOTA when $n$ is larger than $d^2$. It is a little overstatement so please clarify this in the revision.
+>For the non-convex setting, the obtain the complexity does not necessary outperforms the previous SOTA when $n$ is larger than $d^2$. It is a little overstatement so please clarify this in the revision.
+
+R:
 
 # Reviewer 3
 
