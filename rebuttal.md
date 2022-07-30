@@ -1,3 +1,6 @@
+# To AC
+complain reviewer 1
+
 # Global review
 
 
@@ -7,7 +10,7 @@ We thanks our reviewers for their time, and their positive and detailed feedback
 
 >The major concern I have with the paper in it's current form is the quality of writing, which highly affects its clarity and even my ability to assess whether some of the claims are correct, let alone novel. It is not always clear what the authors assume, and what the "logic" and order of quantifiers is in their definitions and therefore in their maintheorems.
 
-R: 
+R: Thanks 
 
 
 >Section 3.2 - You provide references that use coordinated ZO estimator, though no references of using therandom ZO estimator. Moreover, in figure 1 you refer to the random ZO estimator as "Our new". This ismisleading, as it gives the impression that it is used for the first time in this paper. This is definitely not true. Forexample, the seminal [Online convex optimization in the bandit setting: gradient descent without a gradient,Flaxman Kalai McMahan] and many follow ups. Your paper should at least provide such references, and a detailed discussion of what is diff erent in your setting (finite sum etc.).
@@ -38,6 +41,15 @@ R:
 # Reviewer 3
 
 # Reviewer 4
->I think the authors didn't mention any disadvantage of proposed method but final system error comparing with existing one. In my opinion, it is fine but I would like to hear more discussion orexplanation as mentioned in above box.
+>**Limitation**: I think the authors didn't mention any disadvantage of proposed method but final system error comparing with existing one. In my opinion, it is fine but I would like to hear more discussion or explanation as mentioned in above box.
 
-R: 
+**R**: We do not 
+
+
+
+
+# Todo
+
+- [x]  plot figure 3 with residue error, y axis is in log. x axis in Figure  4 is log.
+
+- [x] plish definition, theorems to make them more logic
