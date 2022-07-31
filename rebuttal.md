@@ -29,7 +29,7 @@ R:
 
 # Reviewer 2
 
->While reduction based approaches usually enjoy a simplified analysis, in practice they are more difficult to implement due to their need to maintain delicate objective reduction properties. Usually these properties dependson unknown problem parameters, e.g. smoothness, which limits the applicability of this type of methods. I would not blame the authors for this drawback since it is a common problem of the reduction based approaches, but I cannot strongly recommend this work due to this reason.
+>While reduction based approaches usually enjoy a simplified analysis, in practice they are more difficult to implement due to their need to maintain delicate objective reduction properties. Usually these properties depends on unknown problem parameters, e.g. smoothness, which limits the applicability of this type of methods. I would not blame the authors for this drawback since it is a common problem of the reduction based approaches, but I cannot strongly recommend this work due to this reason.
 
 R:
 
@@ -58,3 +58,5 @@ In addition, as mentioned by the reviwer, our methods achieve lower query comple
 - []  plot figure 3 with residue error, y axis is in log. x axis in Figure  4 is log.
 
 - [] plish definition, theorems to make them more logic
+
+- [] the obtain the complexity does not necessary outperforms the previous SOTA when $n$ is larger than $d^2$. It is a little overstatement so please clarify this in the revision.
