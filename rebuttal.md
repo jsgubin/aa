@@ -31,19 +31,22 @@ R:
 
 >While reduction based approaches usually enjoy a simplified analysis, in practice they are more difficult to implement due to their need to maintain delicate objective reduction properties. Usually these properties depends on unknown problem parameters, e.g. smoothness, which limits the applicability of this type of methods. I would not blame the authors for this drawback since it is a common problem of the reduction based approaches, but I cannot strongly recommend this work due to this reason.
 
-R:
+R: We have  two or three more hyper-parameters (i.e., $\gamma_0$ and $\mathcal{K}$ in Algorithm 1, $\lambda$ in Algorithm 2, and epoch number $S$ in both algorithms) needed be set in our reduction frameworks, compared to existing variance reduced ZO proximal  algorithms such as ZOR-ProxSVRG and ZOR-ProxSAGA. Choosing these hyper-parameters can be done by the cross validation  with the criteria of running time to converge. Below we provide some principles for choosing them.
+
+   - $\gamma_0$ and $\mathcal{K}$ conficts each other. Specifically, if $\gamma_0$ is larger, $\mathcal{K}$ is smaller such that finally $\gamma_S$ closes to zero. In our experiments, we set  $\gamma_0$ and $\mathcal{K}$ $S=$  ~~add specific settings in our experiments~~
+   - $\lambda$ could be any value  such that $F^{(s)}(\mathbf{x})$ is strongly convex.   In our experiments, we set  $\lambda$ and $S=$ ~~add specific settings in our experiments~~
 
 
 >For the non-convex setting, the obtain the complexity does not necessary outperforms the previous SOTA when $n$ is larger than $d^2$. It is a little overstatement so please clarify this in the revision.
 
-R:
+R: Thanks for the suggestion. In the abstract and introduciton of the revised version, we have highlighted the condition in terms of the improvement of our algorihtm on the non-convex setting comapred to the previous SOTA.
 
 # Reviewer 3
 
 # Reviewer 4
 >**Limitation**: I think the authors didn't mention any disadvantage of proposed method but final system error comparing with existing one. In my opinion, it is fine but I would like to hear more discussion or explanation as mentioned in above box.
 
-**R**: Thanks for discussing the limitations or disadvantages of the paper. We have  two or three more hyper-parameters (i.e., $\gamma_0$ and $\mathcal{K}$ in Algorithm 1, $\lambda$ in Algorithm 2, and epoch number $S$ in both algorithms) needed be set in our reduction frameworks, compared to existing variance reduced ZO proximal  algorithms such as ZOR-ProxSVRG and ZOR-ProxSAGA. However, choosing these hyper-parameters can be done by the cross validation  with the criteria of running time to converge. Below we provide some principles for choosing them.
+**R**: Thanks for discussing the limitations or disadvantages of the paper. We have  two or three more hyper-parameters (i.e., $\gamma_0$ and $\mathcal{K}$ in Algorithm 1, $\lambda$ in Algorithm 2, and epoch number $S$ in both algorithms) needed be set in our reduction frameworks, compared to existing variance reduced ZO proximal  algorithms such as ZOR-ProxSVRG and ZOR-ProxSAGA. Choosing these hyper-parameters can be done by the cross validation  with the criteria of running time to converge. Below we provide some principles for choosing them.
 
    - $\gamma_0$ and $\mathcal{K}$ conficts each other. Specifically, if $\gamma_0$ is larger, $\mathcal{K}$ is smaller such that finally $\gamma_S$ closes to zero. In our experiments, we set  $\gamma_0$ and $\mathcal{K}$ $S=$  ~~add specific settings in our experiments~~
    - $\lambda$ could be any value  such that $F^{(s)}(\mathbf{x})$ is strongly convex.   In our experiments, we set  $\lambda$ and $S=$ ~~add specific settings in our experiments~~
