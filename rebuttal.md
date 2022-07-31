@@ -48,7 +48,7 @@ R:
    - $\gamma_0$ and $\mathcal{K}$ conficts each other. Specifically, if $\gamma_0$ is larger, $\mathcal{K}$ is smaller such that finally $\gamma_S$ closes to zero. In our experiments, we set  $\gamma_0$ and $\mathcal{K}$ $S=$  ~~add specific settings in our experiments~~
    - $\lambda$ could be any value  such that $F^{(s)}(\mathbf{x})$ is strongly convex.   In our experiments, we set  $\lambda$ and $S=$ ~~add specific settings in our experiments~~
 
-In addition, our method maybe have one more system error as mentioned by the reviewer.
+In addition, as mentioned by the reviwer, our methods achieve lower query complexities  by sacrificing the accuracy of solver, i.e., maybe have one more system error.
 
 
 
