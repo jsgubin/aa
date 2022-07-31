@@ -45,8 +45,10 @@ R:
 
 **R**: Thanks for discussing the limitations or disadvantages of the paper. We have one or two more hyper-parameters (i.e., $\gamma_0$ and $\mathcal{K}$ in Algorithm 1, $\lambda$ in Algorithm 2) needed be set in our reduction frameworks, compared to existing variance reduced ZO proximal  algorithms such as ZOR-ProxSVRG and ZOR-ProxSAGA. However, choosing these hyper-parameters can be done by the cross validation  with the criteria of running time to converge. Below we provide some principles for choosing them.
 
-   - $\gamma_0$ and $\mathcal{K}$ conficts each other. Specifically, if $\gamma_0$ is larger, $\mathcal{K}$ is smaller such that finally $\gamma_S$ closes to zero. In our experiments, we set  $\gamma_0$ and $\mathcal{K}$ *add specific settings in our experiments*
-   - $\lambda$ is 
+   - $\gamma_0$ and $\mathcal{K}$ conficts each other. Specifically, if $\gamma_0$ is larger, $\mathcal{K}$ is smaller such that finally $\gamma_S$ closes to zero. In our experiments, we set  $\gamma_0$ and $\mathcal{K}$  ==add specific settings in our experiments==
+   - $\lambda$ is           In our experiments, we set  $\gamma_0$ and $\mathcal{K}$ ==add specific settings in our experiments==
+
+In addition, our method maybe have one more system error as mentioned by the reviewer.
 
 
 
